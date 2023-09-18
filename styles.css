@@ -11,6 +11,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html {
     min-height: 100%;
     
@@ -21,7 +22,7 @@ body{
     background-color: var(--violet);
     font-family: 'Open Sans', sans-serif;
 }
-
+@media (min-width: 375px) and (max-width: 768px) {
 .bg{
    position: absolute;
 }
@@ -97,4 +98,5 @@ a img{
     width: .7rem;
     height: .7rem;
     
+}
 }
