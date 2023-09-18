@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+:root{
+    --violet: hsl(257, 40%, 49%);
+    --soft_magenta: hsl(300, 69%, 71%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    min-height: 100%;
+    
+  }
+
+body{
+    
+    background-color: var(--violet);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg{
+   position: absolute;
+}
+.bg img{
+    width: 100vw;
+    height: 65vh;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15vh;
+}
+
+
+
+.logo{
+
+    margin: 2rem;
+    width: 40%;
+    
+}
+main{
+    position: relative;
+    top: 15vh;
+    
+}
+
+section{
+    padding: 2rem;
+    color: white;
+    text-align: center;
+
+}
+
+section img{
+    width: 100%;
+    
+}
+section article h1{
+    margin: 3rem 0 1rem 0;
+    font-size: 1.7rem;
+
+}
+    
+section article input{
+    margin-top: 1rem;
+    padding: .4rem;
+    width: 50%;
+    border-radius: 20px;
+    color: var(--violet);
+    border: none;
+}
+
+footer{
+    position: relative;
+    top: 10vh;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+      
+}
+
+
+a{
+    padding: .2rem .5rem .2rem .5rem;
+    border: 1px solid white;
+    border-radius: 50%;
+   
+}
+
+a img{
+    width: .7rem;
+    height: .7rem;
+    
+}
